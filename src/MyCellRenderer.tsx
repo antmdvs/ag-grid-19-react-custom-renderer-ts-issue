@@ -15,7 +15,7 @@ export class MyCellRenderer extends React.Component<ICellRendererParams>
   // and this is affecting React as well.
   //
   // public agInit() {
-  //   throw new Error('This method is not used in React! But it's now required in the type declaration?!');
+  //   throw new Error(`This method is not used in React! But it's now required in the type declaration?!`);
   // }
 
   public refresh() {
